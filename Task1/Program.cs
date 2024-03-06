@@ -1,12 +1,10 @@
 ﻿// Console.WriteLine("hello world");
 
 
-int value = 100;
-Console.WriteLine(value);
 
-double d = 5.55;
-char c = '!';
-bool b = true;
-Console.WriteLine(d);
-Console.WriteLine(c);
-Console.WriteLine(b);
+int a = 2;
+int b = 3;
+int c = 1;
+int d = 4;
+int sum = (a * b) / (c + d);
+Console.WriteLine(sum);
